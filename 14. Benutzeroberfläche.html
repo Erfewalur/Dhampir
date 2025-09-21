@@ -1,0 +1,198 @@
+<html lang="de">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dhampir - Die Umwelt im Spiel</title>
+    <link rel="stylesheet" type="text.css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="navigationsleiste.css">
+        <script src="navigationsleiste.js" defer></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" sizes="192x192" href="Bilder/Celtic Logo.png">   
+  </head> 
+
+  <body>
+    <header class="mitte">
+      <div id="hauptnavigation">
+          <div class="logobereich">
+              <a href="index.html" class="nav-logo"></a>
+          </div>
+          <div class="logobereich">
+            <a href="index.html" class="nav-gods"></a>
+        </div>
+          <div class="logobereich">
+            <a href="index.html" class="nav-logo2"></a>
+        </div>
+          
+          <a href="javascript:void(0);" class="hamburger-icon" onclick="navigationUmschalten()">
+              <i class="fa fa-bars"></i>
+          </a>
+      </div>
+    </header>
+
+  <style>
+    #pic{
+      background: url(Bilder/Dhampir_2.png) center no-repeat ;      
+      background-size: cover;
+      height: 550px;
+      overflow: hidden;
+    }
+  </style>
+  <body>
+    <div id="pic" class="d-none d-sm-block"></div>
+<!-- NAVIGATIONSLEISTE -->
+<div class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #400b63; width: 400rem;">
+      <div class="container-fluid">
+        <span class="navbar-brand"></span>
+            <div id=menue class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html"><b>Home</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Die Welt von Dhampir</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="1. Design.html">Designrichtlinien</a></li>
+                    <li><a class="dropdown-item" href="2. Umwelt.html">Die Umwelt</a></li>
+                    <li><a class="dropdown-item" href="3. Charaktere.html">Die Charaktere</a></li>
+                    <li><a class="dropdown-item" href="4. Gegner.html">Die Gegner</a></li>
+                    <li><a class="dropdown-item" href="5. Story.html">Die Story</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Der Spielverlauf in Dhampir</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="11. Gameplay.html">Das Gameplay</a></li>
+                    <li><a class="dropdown-item" href="12. Spielmechaniken.html">Die Spielmechaniken</a></li>
+                    <li><a class="dropdown-item" href="13. Aktionsablauf.html">Der Aktionsablauf</a></li>
+                    <li><a class="dropdown-item" href="14. Benutzeroberfläche.html">Die Benutzeroberfläche</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Dhampir Infos</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="21. News.html">News</a></li>
+                    <li><a class="dropdown-item" href="22. Roadmap.html">Roadmap</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="30. Missionen.html"><b>Missionsentwürfe</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="40. Gallery.html"><b>Galerie und Trailer</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="45. Shop.html"><b>Shop</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="50. Spendenprogramm.html"><b>Spendenprogramm</b></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
+    <!-- Präsentation der Website -->
+    <div class="row">
+        <div class="card text-center" style="width: 120rem; background-color: #594e5c;">   
+          <div class="card-body">
+            <h5 class="card-title"><b>Die Benutzeroberfläche im Dhampir Projekt</b></h5>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br> 
+        <div>
+        <div class="col d-flex justify-content-center">
+        <div class="card-group w-60">
+          <div class="card border bg-transparent">
+            <div class="card-body" style="height: auto; width: 120rem;">
+                <p><h3><b>Die Benutzeroberfläche im Dhampir Projekt</b></h3></p>
+                <p>Die Benutzeroberfläche (User Interface, UI) ist ein wichtiger Bestandteil jedes Spiels, da sie die Interaktion zwischen dem Spieler und dem Spiel ermöglicht. 
+                    Eine gut gestaltete Benutzeroberfläche kann das Spielerlebnis erheblich verbessern, indem sie dem Spieler wichtige Informationen bereitstellt und die Navigation 
+                    durch das Spiel erleichtert.</p>
+                <p><br></p>
+                <img src="Bilder/Benutzeroberfläche/Karte.jpg" alt="Kartenoberfläche in Dhampir" class="float-left">
+                <img src="Bilder/Benutzeroberfläche/Rüstung.jpg" alt="Rüstungsoberfläche in Dhampir" class="float-right">
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p>Die Benutzeroberfläche (User Interface, UI) ist ein wichtiger Bestandteil jedes Spiels, da sie die Interaktion zwischen dem Spieler und dem Spiel ermöglicht. 
+                    Eine gut gestaltete Benutzeroberfläche kann das Spielerlebnis erheblich verbessern, indem sie dem Spieler wichtige Informationen bereitstellt und die Navigation 
+                    durch das Spiel erleichtert.</p>
+                <p><br></p>
+                <img src="Bilder/Benutzeroberfläche/Fähigkeitenbaum.jpg" alt="Flora im Rheinland" class="float-left">
+                <img src="Bilder/Benutzeroberfläche/Inventar.jpg" alt="Flora im Rheinland" class="float-right">
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><br></p>
+                <p><b>Dhampir: Die Benutzeroberfläche</b></p>
+                <p>In Dhampir wird die Benutzeroberfläche so gestaltet, dass sie intuitiv und benutzerfreundlich ist. Die wichtigsten Elemente der Benutzeroberfläche sind:</p>
+                <ul style="list-style-type: circle;">
+                    <li><p><b>HUD (Heads-Up Display)</b> Das HUD zeigt dem Spieler wichtige Informationen wie Gesundheit, Ausdauer, Mana, Erfahrungspunkte und aktuelle Missionen an. 
+                        Es ist so gestaltet, dass es den Spieler nicht ablenkt, aber dennoch alle notwendigen Informationen bereitstellt.</p></li>
+                    <li><p><b>Inventar</b> Das Inventar ermöglicht es dem Spieler, Gegenstände zu verwalten, Waffen und Rüstungen auszurüsten und Verbrauchsgegenstände zu verwenden. 
+                        Es ist übersichtlich gestaltet und ermöglicht eine einfache Navigation durch die verschiedenen Kategorien von Gegenständen.</p></li>
+                    <li><p><b>Karte</b> Die Karte zeigt dem Spieler die Umgebung, wichtige Orte und Missionsziele an. Sie ist interaktiv und ermöglicht es dem Spieler, Wegpunkte zu setzen 
+                        und sich besser in der Spielwelt zurechtzufinden.</p></li>
+                    <li><p><b>Fähigkeitenbaum</b> Der Fähigkeitenbaum ermöglicht es dem Spieler, neue Fähigkeiten freizuschalten und bestehende Fähigkeiten zu verbessern. 
+                        Er ist übersichtlich gestaltet und zeigt die verschiedenen Pfade und Abhängigkeiten zwischen den Fähigkeiten.</p></li>
+                </ul>
+                <p><br></p>
+                <p>Die Benutzeroberfläche in Dhampir wird kontinuierlich getestet und verbessert, um sicherzustellen, dass sie den Bedürfnissen der Spieler entspricht. 
+                    Feedback von Spielern wird aktiv eingeholt und in die Gestaltung der Benutzeroberfläche einbezogen, um ein optimales Spielerlebnis zu gewährleisten.</p>
+                <p><br></p>
+                <p>Insgesamt ist die Benutzeroberfläche ein entscheidender Faktor für den Erfolg von Dhampir. Eine gut gestaltete Benutzeroberfläche trägt dazu bei, 
+                    dass sich die Spieler in der Spielwelt zurechtfinden und das Spiel genießen können.</p>
+              <div class="d-flex align-items-start">
+            </div>
+              <p class="card-text"><small class="text-muted">Letztes Update: <span style="color:black"><b>19.09.2025</b></span> </small></p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <br>
+        <!-- SEITENENDE -->
+        </div>
+            <!-- Vorbereitung für Aussonderung der Navigation-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+            <script>
+              $(".nav-item").click(function(){$("#menue").collapse('hide');
+              $("#menue .bg-primary").removeClass(".bg-primary");
+              $(this).addClass("bg-primary");
+            })
+              $(".dropdown").click(function(){
+              if(!$(this).hasClass("show")) return;
+                $("#menue li>bg-primary").removeClass("bg-primary");
+                $(this).addClass("bg-primary");
+              })
+            </script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+          </body>
+          </html>
