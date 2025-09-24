@@ -1,0 +1,176 @@
+<html lang="de">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dhampir - Die Welt der Nacht</title>
+    <link rel="stylesheet" type="text.css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="navigationsleiste.css">
+        <script src="navigationsleiste.js" defer></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" sizes="192x192" href="Bilder/Celtic Logo.png">   
+  </head> 
+
+  <body>
+    <header class="mitte">
+      <div id="hauptnavigation">
+          <div class="logobereich">
+              <a href="index.html" class="nav-logo"></a>
+          </div>
+          <div class="logobereich">
+            <a href="index.html" class="nav-gods"></a>
+        </div>
+          <div class="logobereich">
+            <a href="index.html" class="nav-logo2"></a>
+        </div>
+          
+          <a href="javascript:void(0);" class="hamburger-icon" onclick="navigationUmschalten()">
+              <i class="fa fa-bars"></i>
+          </a>
+      </div>
+    </header>
+
+  <style>
+    #pic{
+      background: url(Bilder/Dhampir_2.png) center no-repeat ;      
+      background-size: cover;
+      height: 550px;
+      overflow: hidden;
+    }
+  </style>
+  <body>
+    <div id="pic" class="d-none d-sm-block"></div>
+<!-- NAVIGATIONSLEISTE -->
+<div class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #6d18a5; width: 400rem;">
+      <div class="container-fluid">
+        <span class="navbar-brand"></span>
+            <div id=menue class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html"><b>Home</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Die Welt von Dhampir</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="1. Design.html">Designrichtlinien</a></li>
+                    <li><a class="dropdown-item" href="2. Umwelt.html">Die Umwelt</a></li>
+                    <li><a class="dropdown-item" href="3. Charaktere.html">Die Charaktere</a></li>
+                    <li><a class="dropdown-item" href="4. Gegner.html">Die Gegner</a></li>
+                    <li><a class="dropdown-item" href="5. Story.html">Die Story</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Der Spielverlauf in Dhampir</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="11. Gameplay.html">Das Gameplay</a></li>
+                    <li><a class="dropdown-item" href="12. Spielmechaniken.html">Die Spielmechaniken</a></li>
+                    <li><a class="dropdown-item" href="13. Aktionsablauf.html">Der Aktionsablauf</a></li>
+                    <li><a class="dropdown-item" href="14. Benutzeroberfläche.html">Die Benutzeroberfläche</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Dhampir Infos</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="21. News.html">News</a></li>
+                    <li><a class="dropdown-item" href="22. Roadmap.html">Roadmap</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="30. Missionen.html"><b>Missionsentwürfe</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Digitale Inhalte</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="40. Art - Concept Art.html">Konzepte der Lokation</a></li>
+                    <li><a class="dropdown-item" href="41. Art - Models und Texturen.html">Modelle und Texturen</a></li>
+                    <li><a class="dropdown-item" href="42. Sound - Sound Effekte.html">Soundeffekte</a></li>
+                    <li><a class="dropdown-item" href="43. Videos.html">Videos und Animationen</a></li>
+                    <li><a class="dropdown-item" href="44. Technische Details.html">Technische Details</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="45. Shop.html"><b>Shop</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="50. Spendenprogramm.html"><b>Spendenprogramm</b></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
+  <!-- Unterbringung der Datenschutz und Kontaktinformationen für die Site -->
+  <div class="card-group">
+    <div class="card border-dark" style="width: 100rem;">
+      <div class="card-body" style="height: auto;">
+        <h3 class="card-title"><b>Impressum</b></h3>
+        <p class="card-text"></p>
+              <p><b>1. Haftungsbeschränkung</b></p>
+              <p>
+              Der Inhalt dieser Projektseite wird mit größtmöglicher Sorgfalt erstellt. Der Anbieter übernimmt die Richtigkeit, Vollständigkeit und Aktualität 
+              der bereitgestellten Auflistung. Mit der reinen Nutzung der Website des Anbieters kommt keinerlei Vertragsverhältnis zwischen dem Nutzer und dem 
+              Anbieter zustande. Die Inhalte werden vom Autor selbstständig vorgenommen nach selbstständiger Recherche.
+              </p>
+              <p><b>2. Externe Links</b></p>
+              <p>
+              Mit dieser Website besteht eine Verbindung zur Hauptseite der Arbeitsprojekte des Programmierers. Diese verweißt auf https://astrola.blog/Scheuer/Home/index.php.
+              </p>
+              <p><b>3. Urheber- und Leistungsschutzrechte</b></p>
+              <p>
+              Die auf dieser Website veröffentlichten Inhalte unterliegen dem deutschen Urheber- und Leistungsschutzrecht. Jede vom deutschen Urheber- und Leistungsschutzrecht 
+              nicht zugelassene Verwertung bedarf der vorherigen schriftlichen Zustimmung des Anbieters oder jeweiligen Rechteinhabers. Dies gilt insbesondere für 
+              Vervielfältigung, Bearbeitung, Übersetzung, Einspeicherung, Verarbeitung bzw. Wiedergabe von Inhalten in Datenbanken oder anderen elektronischen Medien und 
+              Systemen. Inhalte und Rechte Dritter sind dabei als solche gekennzeichnet. Die unerlaubte Vervielfältigung oder Weitergabe einzelner Inhalte oder kompletter 
+              Seiten ist nicht gestattet und strafbar. Lediglich die Herstellung von Kopien und Downloads für den persönlichen, privaten und nicht kommerziellen Gebrauch 
+              ist erlaubt. Die Darstellung dieser Website in fremden Frames ist nur mit schriftlicher Erlaubnis zulässig.
+              </p>
+              <p><b>4. Datenschutz</b></p>
+              <p>
+              Durch den Besuch der Website des Anbieters können Informationen über den Zugriff (Datum, Uhrzeit, betrachtete Seite) gespeichert werden. Diese Daten gehören 
+              nicht zu den personenbezogenen Daten, sondern sind anonymisiert. Sie werden ausschließlich zu statistischen Zwecken ausgewertet. Eine Weitergabe an Dritte, zu 
+              kommerziellen oder nichtkommerziellen Zwecken, findet nicht statt. Der Anbieter weist ausdrücklich darauf hin, dass die Datenübertragung im Internet 
+              (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen und nicht lückenlos vor dem Zugriff durch Dritte geschützt werden kann.
+              Die Verwendung der Kontaktdaten des Impressums zur gewerblichen Werbung ist ausdrücklich nicht erwünscht, es sei denn der Anbieter hatte zuvor seine schriftliche 
+              Einwilligung erteilt oder es besteht bereits eine Geschäftsbeziehung. Der Anbieter und alle auf dieser Website genannten Personen widersprechen hiermit jeder 
+              kommerziellen Verwendung und Weitergabe ihrer Daten.
+              </p>
+              <p><b>5. Haftungsausschluss für unberechtigte geltend gemachte Kosten</b></p>
+              <p>
+              Wir sind um die urheberrechtliche Richtigkeit unserer Internetseite bemüht und greifen nur auf selbst erstellte Inhalte sowie auf lizensierte und lizenzfreie Werke 
+              zurück. Sollten dennoch Inhalte oder Aufmachung der Internetseite Rechte Dritter oder gesetzliche Vorschriften verletzten, bitten wir um umgehende Mitteilung an 
+              den im Impressum genannten Verantwortlichen. Wir sichern zu, die geltend gemachten Verletzungen unverzüglich zu prüfen und zu Recht beanstandete Inhalte und Links 
+              sofort zu entfernen, so dass von Seiten des Berechtigten die Einschaltung eines Rechtsanwaltes nicht erforderlich ist.
+              Vom Berechtigten ohne vorherige Kontaktaufnahme mit uns ausgelöste Rechtsberatungs- und andere Kosten werden wir aus diesem Grund vollumfänglich zurückweisen. Falls 
+              beabsichtigt wird, solche Kosten gerichtlich geltend zu machen, weisen wir darauf hin, dass wir in diesem Fall Gegenklage auf Nichttragung der Kosten wegen fehlender 
+              Ursächlichkeit erheben werden. Wir danken Ihnen für Ihr Verständnis.
+              </p>
+  <p class="card-text"><small class="text-muted">Letztes Update: <span style="color:black"><b>24.09.2025</b></span></small></p>
+      </div>
+    </div>
+  <!-- SEITENENDE -->
+  </div>
+  </div>
+      <!-- Vorbereitung für Aussonderung der Navigation-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+      <script>
+        $(".nav-item").click(function(){$("#menue").collapse('hide');
+        $("#menue .bg-primary").removeClass(".bg-primary");
+        $(this).addClass("bg-primary");
+      })
+        $(".dropdown").click(function(){
+        if(!$(this).hasClass("show")) return;
+          $("#menue li>bg-primary").removeClass("bg-primary");
+          $(this).addClass("bg-primary");
+        })
+      </script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </body>
+    </html>
