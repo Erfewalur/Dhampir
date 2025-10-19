@@ -1,0 +1,230 @@
+<html lang="de">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dhampir - Die Welt der Nacht</title>
+    <link rel="stylesheet" type="text.css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="navigationsleiste.css">
+        <script src="navigationsleiste.js" defer></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" sizes="192x192" href="Bilder/Dhampir Logo.png">   
+  </head> 
+
+  <body>
+    <header class="mitte">
+      <div id="hauptnavigation">
+          <div class="logobereich">
+              <a href="index.html" class="nav-logo"></a>
+          </div>
+          <div class="logobereich">
+            <a href="index.html" class="nav-gods"></a>
+        </div>
+          <div class="logobereich">
+            <a href="index.html" class="nav-logo2"></a>
+        </div>
+          
+          <a href="javascript:void(0);" class="hamburger-icon" onclick="navigationUmschalten()">
+              <i class="fa fa-bars"></i>
+          </a>
+      </div>
+    </header>
+
+  <style>
+    #pic{
+      background: url(Bilder/Dhampir.jpg) center no-repeat ;      
+      background-size: cover;
+      height: 750px;
+      overflow: hidden;
+    }
+    body {
+      background-color: #ffffff;  
+    }
+  </style>
+  <body>
+    <div id="pic" class="d-none d-sm-block"></div>
+<!-- NAVIGATIONSLEISTE -->
+<div class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #6d18a5; width: 400rem;">
+      <div class="container-fluid">
+        <span class="navbar-brand"></span>
+            <div id=menue class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html"><b>Home</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Die Welt von Dhampir</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="1. Design.html">Designrichtlinien</a></li>
+                    <li><a class="dropdown-item" href="2. Umwelt.html">Die Umwelt</a></li>
+                    <li><a class="dropdown-item" href="3. Charaktere.html">Die Charaktere</a></li>
+                    <li><a class="dropdown-item" href="4. Gegner.html">Die Gegner</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Der Spielverlauf in Dhampir</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="11. Gameplay.html">Das Gameplay</a></li>
+                    <li><a class="dropdown-item" href="12. Spielmechaniken.html">Die Spielmechaniken</a></li>
+                    <li><a class="dropdown-item" href="13. Aktionsablauf.html">Der Aktionsablauf</a></li>
+                    <li><a class="dropdown-item" href="14. Menüs.html">Die Menüs</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Dhampir Infos</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="21. News.html">News</a></li>
+                    <li><a class="dropdown-item" href="22. Roadmap.html">Roadmap</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Dhampir Missionen</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="31. Hauptmissionen.html"><b>Hauptmissionen</b></a></li>
+                    <li><a class="dropdown-item" href="32. Sammelmissionen.html"><b>Sammelmissionen</b></a></li>
+                    <li><a class="dropdown-item" href="33. Charaktermissionen.html"><b>Charaktermissionen</b></a></li>
+                    <li><a class="dropdown-item" href="34. Tötungsmissionen.html"><b>Tötungsmissionen</b></a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Digitale Inhalte</b></a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="40. Art - Concept Art.html">Konzepte der Lokation</a></li>
+                    <li><a class="dropdown-item" href="41. Art - Models und Texturen.html">Modelle und Texturen</a></li>
+                    <li><a class="dropdown-item" href="42. Sound - Sound Effekte.html">Soundeffekte</a></li>
+                    <li><a class="dropdown-item" href="43. Videos.html">Videos und Animationen</a></li>
+                    <li><a class="dropdown-item" href="44. Technische Details.html">Technische Details</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="45. Shop.html"><b>Shop</b></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="50. Spendenprogramm.html"><b>Spendenprogramm</b></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
+    <!-- Präsentation der Website -->
+    <div class="row">
+        <div class="card text-center" style="width: 100%; background-color: #8b913c;">   
+          <div class="card-body">
+            <h5 class="card-title"><b>Storyinhalte - Was sind die Collectibles?</b></h5>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br> 
+        <div>
+        <div class="col d-flex justify-content-center">
+        <div class="card-group w-60">
+          <div class="card border bg-transparent">
+            <div class="card-body" style="height: auto; width: 120rem;">
+                <p><h2><b>Die Sammelmissionen im Dhampir Projekt</b></h2></p>
+                <p>In der Welt von Dhampir gibt es zahlreiche Sammelmissionen, die den Spielern die Möglichkeit bieten, wertvolle Ressourcen und seltene Gegenstände zu entdecken. 
+                  Diese Missionen sind darauf ausgelegt, die Erkundung der Umgebung zu fördern und die Spieler in die faszinierende Welt von Dhampir einzutauchen.</p>
+                <p>Die Sammelmissionen sind vielfältig und reichen von der Suche nach seltenen Pflanzen und Kräutern bis hin zum Auffinden von antiken Artefakten und magischen 
+                  Relikten. Jede Mission ist sorgfältig gestaltet, um den Spielern eine einzigartige Herausforderung zu bieten und gleichzeitig die reiche Geschichte und Kultur 
+                  der Urvölker-Welt zu vermitteln.</p>
+                <p>Die Spieler müssen ihre Fähigkeiten und ihr Wissen über die Umgebung nutzen, um die gesuchten Gegenstände zu finden. Dies kann das Lösen von Rätseln, das 
+                  Überwinden von Hindernissen oder das Interagieren mit NPCs (Nicht-Spieler-Charakteren) beinhalten, die wertvolle Hinweise geben können.</p>
+                <p>Die Belohnungen für das Abschließen von Sammelmissionen sind vielfältig und können von nützlichen Gegenständen und Ressourcen bis hin zu exklusiven 
+                  Ausrüstungsgegenständen und kosmetischen Upgrades, aber auch besonderen Fähigkeiten reichen. Diese Belohnungen tragen dazu bei, die Spieler zu motivieren und 
+                  ihre Fortschritte im Spiel zu belohnen.</p>
+                <p>Insgesamt bieten die Sammelmissionen im Dhampir-Projekt eine spannende und lohnende Erfahrung für die Spieler, die ihre Abenteuerlust wecken und sie dazu 
+                  ermutigen, die Welt von Dhampir in all ihren Facetten zu erkunden.</p>
+                <p><h2><b>Sammelmissionsobjekte: Vergessene und Untergegangene Reiche</b></h2></p>
+                <table class="table table-bordered table-striped">
+                  <tbody>
+                    <tr><td><b>Kontinent/Reich</b></td><td><b>Erfahrungspunkte</b></td><td><b>Standort im Spiel</b></td><td><b>Inhalte</b></td><td><b>Gründe des Untergang</b></td></tr>
+                    <tr><td>Beringia</td><td>500 EP</td><td>?</td><td>Beringia ist der Name für die Region zwischen Ostsibirien und Alaska, die während des Pleistozäns mehrfach durch Rückgang des globalen Meeresspiegels trocken fiel und zudem eisfrei war. Hier bildete sich das erste Königreich einer Menschen ähnlichen Spezies, die sich auf die Forschung spezialisierte.</td><td>Klimawandel > Sintflut</td></tr>
+                    <tr><td>Doggerland</td><td>500 EP</td><td>?</td><td>Doggerland war eine Landmasse, die während der letzten Eiszeit zwischen Großbritannien und dem europäischen Festland lag und heute von der Nordsee bedeckt ist. Es war ein fruchtbares Gebiet, das von Jägern und Sammlern der Mittelsteinzeit besiedelt wurde und durch den Anstieg des Meeresspiegels vor etwa 8.200 Jahren überflutet wurde. Heute zeugen Funde wie Werkzeuge und Knochen sowie die Reste von Helgoland und den Halligen von diesem versunkenen Land. Nach dem Untergang von dem Reich auf Beringia bildete Sich die Gesellschaft der Forschung weiter aus.</td><td>Klimawandel > Sintflut</td></tr>
+                    <tr><td>Reich von Akkad</td><td>500 EP</td><td>?</td><td>Das Reich von Akkad in Mesopotamien, benannt nach seiner Hauptstadt Akkad, existierte im 24. und 23. Jh. v.u.Z. rund 150 Jahre lang und gilt als erster Flächenstaat der Menschheitsgeschichte. Mit seiner Errichtung wurde zudem erstmals eine semitische Sprache zur offiziellen Sprache eines Staates. Überreste der Ersten Vampire und Werwölfe rotteten Sich in den Staatsaufbau.</td><td>Klilmawandel > Sintflut im Ostbereich</td></tr>
+                    <tr><td>Römisches Reich</td><td>500 EP</td><td>?</td><td>Das Römische Reich war das von den Römern, der Stadt Rom bzw. dem römischen Staat beherrschte Gebiet zwischen dem 8. Jh. v.u.Z. und 7. Jh. n.u.Z.. Von Werwölf Clans gegründet, hatte dieses Reich mit Kämpfen gegen andere Urvölker und Hexenwesen zu kämpfen, die Schlussendlich mit Völkerbewegung zum Untergang des Imperiums führten.</td><td>Völkerwanderung und Aufbegehren der Urvölker</td></tr>
+                    <tr><td>Perserreich</td><td>500 EP</td><td>Eurasien, Afrika</td><td>Als Perserreich oder Persisches Reich wird das Großreich der Perser bezeichnet, das zeitweise von Thrakien bis nach Nordwestindien und Ägypten reichte. Es bestand in unterschiedlicher Ausdehnung von etwa 550 bis 330 v.u.Z. (Altpersisches Reich der Achämeniden) und von ca. 224 bis 651 n.u.Z. (Neupersisches Reich der Sassaniden). Das namensgebende Kernland des Perserreiches war die Persis (altpersisch Parsa), eine Region in Südwest-Iran. Von Vampir Clans der Zweiten Generation gegründet, hatte dieses Reich mit Kämpfen gegen andere Urvölker und Hexenwesen zu kämpfen, die schlussendlich mit Völkerbewegung zum Untergang des Reiches führten. Häuser der Clans zogen sich in den Norden Sibiriens zurück.</td><td>Völkerwanderung und Aufbegehren der Urvölker</td></tr>
+                    <tr><td>Byzantinisches Reich</td><td>500 EP</td><td>?</td><td>Das Byzantinische Reich war die unmittelbare Fortsetzung des Römischen Reiches im östlichen Mittelmeerraum. Das Reich ging aus der Reichsteilung von 395 hervor und existierte bis zur Eroberung Konstantinopels durch die Osmanen im Jahr 1453, womit es den Untergang Westroms um fast 1000 Jahre überdauerte. In ihrem Einflussbereich konnten die Werwölfclans ihr Wissen weiter ausarbeiten.</td><td>Völkerwanderung und Aufbegehren der Urvölker</td></tr>
+                    <tr><td>Mongolisches Reich</td><td>500 EP</td><td>?</td><td>Das Mongolische Reich war das im 13. und 14. Jahrhundert von den vereinigten mongolischen Volksstämmen eroberte Territorium in Asien und Osteuropa und auf seinem Höhepunkt der größte zusammenhängende Herrschaftsbereich der Weltgeschichte. Bei ihren Eroberungszügen bekamen die Clans erste Berührungen mit den Urvölkern und bauten So eine langandauernde Schattengesellschaft auf.</td><td>Völkerwanderung und Verschwinden der Urvölker</td></tr>
+                    <tr><td>Inkareich</td><td>500 EP</td><td>?</td><td>Das Inkareich war das größte Reich im präkolumbischen Amerika. Das administrative, politische und militärische Zentrum des Reiches befand sich in der Stadt Cusco im heutigen Peru. Die Zivilisation der Inka entstand im frühen 13. Jahrhundert im Hochland der Anden. Von neuen Urvölkerclans gegründet wurde es durch die weiterfahreneren Vampirclans zerschlagen.</td><td>Erscheinen der Vampire</td></tr>
+                  </tbody>
+                </table>
+                <p><br></p>
+                <p><h2><b>Sammelmissionsobjekte: Urvölker</b></h2></p>
+                <table class="table table-bordered table-striped">
+                  <tbody>
+                    <tr><td><b>Urvolk</b></td><td><b>Erfahrungspunkte</b></td><td><b>Standort im Spiel</b></td><td><b>Herkunft</b></td><td><b>Inhalte</b></td><td><b>Grenzen</b></td><td><b>Fortpflanzung</b></td></tr>
+                    <tr><td rowspan="2">Die Erste Generation der Urvampire</td><td>800 EP</td><td>?</td><td>Beringia (<i>untergegangen</i>)</td><td>11.000 v.u.Z.: Eine unbekannte hochentwickelte Spezies, verwandelt nach einem Angriff eines feindlichen Reiches, einen Teil ihrer Krieger in Monster mit Kräften, die Sie ihnen mit Hilfe von Meteoritengestein weitergaben. Aus einen Teil der Krieger entstanden die ersten Vampire. Die ihre Sinne und Agilität verbesserte und weitere Kräfte freischalteten.</td><td>Um ihren Blutdurst zu bremsen, wurde ihnen eine Abneigung gegen grelles Sonnenlicht auferlegt, bei dem sich ihre Haut zu Kristallen schmerzhaft verkrustet. (heilt sich durch Dunkelheit)</td><td rowspan="2">In dieser Generation pflanzten man sich durch Paarung fort.</td></tr>
+                    <tr><td>800 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>)</td><td>7.800 v.u.Z.: Eine unbekannte hochentwickelte Spezies, verwandelt nach einem Aufstand ihrer Sklaven in Doggerland, Teile ihrer Palastwache in fledermaushafte Krieger. Diese verstärken ihre Sinne, ihre Agilität und erhalten unterschiedliche Mutationskräfte.</td><td>Um ihren Blutdurst zu bremsen, wurde ihnen eine Abneigung gegen grelles Sonnenlicht auferlegt, bei dem sich ihre Haut zu Gestein schmerzhaft verkrustet. (heilt sich durch Salpetersäurengemisch)</td></tr>
+                    <tr><td rowspan="2">Die Zweite Generation der Urvampire</td><td>800 EP</td><td>?</td><td>Südafrika</td><td>6.800 v.u.Z.: Durch dunkle Rituale werden Urvampire mit Elementarkräften erschaffen, um das Reich vor Kriegern jenseits des Meeres zu beschützen.</td><td rowspan="2">Als Sperre gegen ihren Seelendurst werden Sie mit "Re's Fluch" belegt wo durch sie bei Berührung mit dem Sonnenlicht zu Wüstensand werden.</td><td rowspan="2">In dieser Generation kann es zu keiner Fortpflanzung kommen.</td></tr>
+                    <tr><td>800 EP</td><td>?</td><td>Ägypten</td><td>5.100 v.u.Z.: Durch dunkle Rituale werden die Urvampire als mit Feuerkräften gesegnete Krieger erschaffen, die gegen fremde Armeen aus dem Osten genutzt werden sollen. </td></tr>
+                    <tr><td rowspan="2">Die Dritte Generation der Urvampire</td><td>800 EP</td><td>?</td><td>Skandinavien</td><td>7.000 u.Z.: Durch dunke Magie kommt es zur Erschaffung von Urvampiren durch eine Hexe aus Sibirien, um Rache an ihren Verfolgern zu nehmen.</td><td rowspan="2">Als Sperre gegen ihren Blutdurst wurden sie mit einer Abneigung Sonnenlicht ausgestattet, bei der Sie zu Staub zerfallen belegt.</td><td rowspan="2">In dieser Generation pflanzten man sich durch Bluttransfer fort.</td></tr>
+                    <tr><td>800 EP</td><td>?</td><td>Nordamerika</td><td>1.000 u.Z.: Durch dunke Magie kommt es zur Erschaffung von Urvampiren durch eine Hexe aus Skandinavien, um ihre Nachkommen vor Werwölfen zu beschützen.</td></tr>
+                    <tr><td>Die Clans der Werwölfe</td><td>1500 EP</td><td>?</td><td>Eurasien</td><td>10.500 v.u.Z.: Das unbekannte hochentwickelte Volk was die ersten Urvampire erschuf, erlang die Macht andere Werwesen zu erschaffen. Als natürlichen Feind der Vampire erschufen Sie den Werwolf.</td><td>Damit der Werwolf gebremst werden kann, errang man ihn einen tödliche Anfälligkeit gegen Silber zu übertragen.</td><td>Es sind mehrere Gemeinschaften weltweit vorhanden.</td></tr>
+                    <tr><td>Die Banshee</td><td>1000 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Heute Europa</td><td>10.500 v.u.Z.: Das unbekannte hochentwickelte Volk was die ersten Urvampire erschuf, erlang die Macht andere Werwesen zu erschaffen. Als Unterstützung gegen die Werwesen erschufen Sie die Banshees.</td><td>Durch Spezialrüstung und/oder Unterbrechung mit Magie und Kugeln lassen Sie sich besiegen.</td><td>Nur noch wenige in Europa übrig, in Irland ist eine gut aufgebaute Gemeinschaft.</td></tr>
+                    <tr><td>Die Púca (Werziege)</td><td>1000 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Heute Europa</td><td>10.500 v.u.Z.: Das unbekannte hochentwickelte Volk was die ersten Urvampire erschuf, erlang die Macht andere Werwesen zu erschaffen. Als Unterstützung für die Tiere der Natur erschuf man den Pucca.</td><td>Man besiegt Pucca, indem man ihre Supergeschwindigkeit kontert und sie mit gleichwertigen oder überlegenen Fähigkeiten bekämpft.</td><td>Nur noch ein bekannter übrig.</td></tr>
+                    <tr><td>Die Sirenen</td><td>1500 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Heute Mittelmeerraum</td><td>7.000 u.Z.: Durch dunke Magie kam es zur Erschaffung der ersten Sirenen, damit diese die Reiche vor den Werwesen der Meere beschützen.</td><td>Um Sirenen zu besiegen, muss man je nach Kontext zwischen dem Schutz bei einem zivilen Sirenenalarm und dem Kampf gegen mythologische Sirenen oder Gegner in Videospielen unterscheiden. Bei einem Sirenenalarm sucht man geschlossene Räume auf, schaltet Lüftungen aus und informiert sich über Radio, Apps oder die Internetseite der Stadt. Im mythologischen Kontext war ein Weg, Sirenen zu entkommen, Odysseus, indem er seine Crew mit Wachs die Ohren versiegelte, während er selbst an den Mast gefesselt wurde.</td><td>Nur noch wenige in Europa übrig, in Griechenland ist eine gut aufgebaute Gemeinschaft.</td></tr>
+                    <tr><td>Die Clans der Werwesen der Lüfte</td><td>1500 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Heute Mitteleuropa</td><td>10.500 v.u.Z.: Das unbekannte hochentwickelte Volk was die ersten Urvampire erschuf, erlang die Macht andere Werwesen zu erschaffen. Als Unterstützung für die Tiere der Lüfte erschuf man verschiedene Clans.</td><td>Um zum Beispiel Elfen zu besiegen, muss man oft ihre Stärken ausnutzen und Schwächen ausspielen. Man kann sie im Nahkampf zwingen, wenn sie sich auf Fernkampf spezialisiert haben, oder sie aus der Entfernung angreifen, wenn sie eine schlechte Verteidigung haben. Da es verschiedene Arten von Elfen gibt, hängt die beste Strategie vom spezifischen Kontext ab.</td><td>In Mitteleuropa sind mehrere Gemeinschaften der Feen, weltweit mehrere der anderen der anderen Clans.</td></tr>
+                    <tr><td>Die Clans der Werwesen der Meere</td><td>1500 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Nördliche Hemisphäre</td><td>10.500 v.u.Z.: Das unbekannte hochentwickelte Volk was die ersten Urvampire erschuf, erlang die Macht andere Werwesen zu erschaffen. Als Unterstützung für die Tiere der Meere erschuf man verschiedene Clans.</td><td>Um zum Beispiel Meerjungfrauen zu besiegen, muss man sie durch Dehydrierung oder durch das Abwenden der Magie, sie zu schwächen. Man kann versuchen, die Umgebung zu ändern, um Meerjungfrauen zu schwächen, indem man sie aus dem Wasser lockt oder sie in etwas einschließt, das sie nicht vertragen können. Wenn Sie gegen eine Meerjungfrau kämpfen, recherchieren Sie die spezifischen Regeln und Schwächen, die für diese Situation gelten.</td><td>An Küsten, in Flüßen und Seen sind mehrere Gemeinschaften der Meerjungfrauen, weltweit mehrere der anderen der anderen Clans.</td></tr>
+                    <tr><td>Die Clans der Werwesen der Berge</td><td>1500 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Heute Europa</td><td>10.500 v.u.Z.: Das unbekannte hochentwickelte Volk was die ersten Urvampire erschuf, erlang die Macht andere Werwesen zu erschaffen. Als Unterstützung für die Tiere der Berge erschuf man verschiedene Clans.</td><td>Um einen Leprechaun zu besiegen, können Sie ihn mit Eisen neutralisieren, was seine Magie schwächt und ihn töten kann. Eine weitere Möglichkeit ist die Verwendung eines vierblättrigen Kleeblatts, das ihn aufhalten kann. Alternativ kann man versuchen, ihn zu fangen und zu verhandeln, da Leprechauns extrem geizig sind und ihr Gold nur ungern hergeben.</td><td>In Gebirgen findete man mehrere Mitglieder unterschiedlichster Werclans, die sich in gutfunktionierenden Gemeinschaften gefunden haben.</td></tr>
+                    <tr><td>Die Drachen</td><td>1500 EP</td><td>?</td><td>Beringia (<i>untergegangen</i>) > Heute Südosteuropa</td><td>11.000 v.u.Z.: Eine unbekannte hochentwickelte Spezies, verwandelt nach einem Angriff eines feindlichen Reiches, einen Teil ihrer Krieger in Monster mit Kräften, die Sie ihnen mit Hilfe von Meteoritengestein weitergaben. Ein kleiner Teil der Krieger verwandelte sich exponentiell und wurde zu den ersten Drachen. Diese wurden daraufhin als Reittiere für den Kampf benutzt und entwickelten besondere Kräfte.</td><td>Um einen Drachen zu besiegen, gibt es verschiedene Strategien, die je nach Kontext variieren. Oft wird der Waffengang mit Schwertern und Speeren genutzt. Auch Strategien wie das Zerstören von Heilkristallen mit einem Bogen, der Einsatz von Nahkampfwaffen, wenn der Drache landet, und das Ausweichen benutzbar. Generell ist eine gute Rüstung, genügend Verpflegung und eine kluge Taktik entscheidend.</td><td>Nur noch wenige in Europa übrig, auf den Balkan haben sich mehrere kleine Gemeinschaften aufgebaut, die sich auch zu ihren menschlichen Ursprung wandeln können.</td></tr>
+                  </tbody>
+                </table>
+                <p><br></p>
+                <p><h2><b>Sammelmissionsobjekte: Der Magische Kosmos</b></h2></p>
+                <table class="table table-bordered table-striped">
+                  <tbody>
+                    <tr><td><b>Kontinent/Reich</b></td><td><b>Erfahrungspunkte</b></td><td><b>Standort im Spiel</b></td><td><b>Herkunft</b></td><td><b>Inhalte</b></td><td><b>Grenzen</b></td><td><b>Fortpflanzung</b></td></tr>
+                    <tr><td>Die Wassermagier</td><td>1200 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Heute weltweit</td><td>Wassermagier können mithilfe von Wellen, Strömungen, Geysiren und Wasserstrahlen schwere stumpfe Traumata verursachen . Durch die Erzeugung von Strudeln, Wasserhosen und Wirbeln kann ein Wassermagier aufgrund der Kreiselkraft und der Schneidkraft verheerende Schäden verursachen. Auch können Sie das Blut des eigenen Körpers manipulieren.</td><td>Um Wassermagier ist dehydrieren der Umgebung aber auch Elektroschocks sehr zu empfehlen. Wen man gegen Magier kämpf sollte man aber recherchieren welche sozialen oder körperlichen Schwächen haben, um ein positive Lösung der Misssionssitualtion zu erwirken.</td><td rowspan="4">In dieser Generation pflanzt man sich durch Paarung fort.</td></tr>
+                    <tr><td>Die Feuermagier</td><td>1200 EP</td><td>?</td><td>Beringia (<i>untergegangen</i>) > Heute weltweit</td><td>Ein Feuermagier ist eine spezialisierte Magierklasse, die sich auf die Beherrschung von Elementen des Feuers konzentriert. Je nach Mission kann dies eine spezifische Rolle sein, bei der es um offensive Fähigkeiten geht, oder eine Priesterkaste, geht die mit Überresten von Urvölkern alte Götter anbetet.</td><td>Um Feuermagier zu besiegen, ist es am besten, Eisangriffe zu verwenden, die gegen sie sehr effektiv sind, wie im Fall des Feuer-Pyromagus in Zelda: Breath of the Wild. Bei einem Kampf gegen einen Magier-Gegner kann es auch hilfreich sein, einen anderen Magier oder eine Fernkampf-Fähigkeit einzusetzen, damit diese sich gegenseitig angreifen, um sich einen Vorteil zu verschaffen.</td></tr>
+                    <tr><td>Die Erdmagier</td><td>1200 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Heute weltweit</td><td>Erdmagier können mithilfe der Macht der Erde ihre Gruppen Heilen, aber auch um hnen den Weg zu ebnen und ihre Bewegung dadurch vereinfachen. Aber die Erdmagie ist nicht nur eine defensive Elementarmagie. Erdmagier können riesige Felsbrocken heraufbeschwören und damit ihren Feinden schweren Schaden zufügen.</td><td>Um einen Erdmagier zu besiegen, sollten Sie sich auf Fernkampfangriffe konzentrieren und seine Angriffe mit Ausweichen oder Blöcken kontern.</td></tr>
+                    <tr><td>Die Windmagier</td><td>1200 EP</td><td>?</td><td>Beringia (<i>untergegangen</i>) > Heute weltweit</td><td>Windmagier sind Meister darin, Luftströmungen zu manipulieren und geschickt darin, andere Verbündete zu unterstützen und den Zorn der Gegner zu nutzen. Sie können mit Leichtigkeit das Schlachtfeld überqueren und aus unerwarteter Richtung und von den entlegensten Winkeln des Schlachtfeldes aus Zauber wirken und sind so die ideale Wahl für einen Truppengeneral, der ein wenig Magie zur rechten Zeit am rechten Ort benötigt.</td><td>Um einen Windmagier zu besiegen, müssen Sie je anch Ziel die Schwächen des Gegners ausnutzen.  Oft werden Bomben in einen erzeugten Wirbelsturm geworfen, um ihn zu verkleinern, und dann Pfeile in das Auge des Magiers schießen, nachdem er zu Boden gefallen ist.</td></tr>
+                    <tr><td>Die Avatare</td><td>1200 EP</td><td>?</td><td>Beringia (<i>untergegangen</i>) > Heute Eurasien</td><td>Avatare haben die Macht die Kräfte des Magischen Kosmos zu kontrollieren und Sie gegen sämtliche Gegner einzusetzen.</td><td>Um einen Avatar zu besiegen, sollten Sie sich auf gut aufgebaute Ausrüstung konzentrieren und seine Angriffe mit Ausweichen oder Blöcken kontern.</td><td>In dieser Generation pflanzt man sich nur einmal im Leben fort.</td></tr>
+                    <tr><td>Die Grünen Magier</td><td>1200 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Heute weltweit</td><td>Ein Grüner Magier ist eine spezialisierte Magierklasse der Erdmagier, die sich auf die Beherrschung von Elementen der Natur konzentrieren. Je nach Mission kann dies die Umgebung verändern, das Verdauungsmaterial des Körpers aber auch die Magie anderer Magierclans.</td><td>Um einen Grünen Magier zu besiegen, sollte man eine große Mischung an Tränken mit sich führen und die Fähigkeiten entsprechend aufzubauen.</td><td>In dieser Generation pflanzt man sich durch Paarung fort.</td></tr>
+                    <tr><td>Die Lichtmagier</td><td>1200 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Heute weltweit</td><td>Die Magie des Lichts hat viele praktische Anwendungen, nutzt vor allem jedoch ihre Kräfte zur Heilung und zum Schutz. Doch auch blendende Blitze und gleißendes Licht, das den Feind verbrennt, sind ein Teil der Magie, der in dieser Form in erschaffenen Konstruktionen fokussiert werden kann.</td><td>Um einen Lichtmagier zu besiegen, sollten Sie eine gut vorbereitete, schlagkräftige und hochstufige Truppe mit einem ausgewogenen Verhältnis von Angriff und Verteidigung aufstellen. In der Regel ist es sinnvoll, die Charaktere zu erwecken, um nützliche Zusatzfähigkeiten zu erhalten, die den Schaden erhöhen. Die Auswahl der richtigen Ausrüstung wie Runen-Sets mit Set-Effekten, die Angriff- und Verteidigungs-Boosts bieten, ist ebenfalls entscheidend, da der Boss-Lichtmagier oft hohen Schaden verursacht.</td><td>Lichtmagier können nur in Jahrelangen Studium der Lehren diese Art der Magie freigeschaltet werden.</td></tr>
+                    <tr><td>Die Schwarzmagier</td><td>1200 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Heute weltweit</td><td>Die Magie der Finsternis hat viele praktische Anwendungen, nutzt vor allem jedoch ihre Kräfte um andere Objekte und Lebensformen zu kontrollieren oder zu verletzen. Doch auch Schattenwesen und die Dunkelheit, das den Feind orrientierungslos macht.</td><td>Um einen schwarzen Magier zu besiegen, hängt die Strategie davon ab, in welcher Umgebung man sich befindet. In Katakomben kann man zum Beispiel die Gesteine nutzen, um den Magier zu Schwächen. Auch das nutzen von Lichtfähigkeiten kann die Kraft des Magiers beeinträchtigen.</td><td>Schwarzmagier können nur in Jahrelangen Studium der Lehren diese Art der Magie freigeschaltet werden</td></tr>
+                    <tr><td>Die Zeitmagier</td><td>1200 EP</td><td>?</td><td>Doggerland (<i>untergegangen</i>) > Heute weltweit</td><td>Der Zeitmagier ist eine besonderer Magier und verfügt über die Gabe der Zeitmanipulation. Er kann die Kämpfe insofern beeinflussen, als dass er sowohl bei Freund wie Feind die Geschwindigkeit drosseln oder erhöhen kann. Auch kann er Portale in die Vergangenheit öffnen um verschwundene Fähigkeiten zu erlernen.</td><td>Ein Zeitmagier ist sehr schwer zu besiegen, am besten durch einen Verbündeten Zeitmagier. Ein Kampf ist sehr gefährlich.</td><td>Zeitmagier können nur in Jahrelangen Studium der Lehren und mehreren anderen Regeln (Nahtoferfahrung) freigeschaltet werden, da Sie durch diese Art der Magie unsterblich werden.</td></tr>
+                    <tr><td>Die Technomagier</td><td>1200 EP</td><td>?</td><td>Nördliche Hemisphäre</td><td>Die Technomagier sind eine Neue Gruppierung der Magier die Technologie der Modernen Feld und die Energien der Moderne manipulieren und damit kämpfen können.</td><td>Finde es heraus !</td><td>Die Technomagier sind eine sehr neue Magiegruppe und pflanzen Sich durchs Wissensvermittlung fort. aufgebaut, die sich auch zu ihren menschlichen Ursprung wandeln können.</td></tr>
+                  </tbody>
+                </table>
+                <p><h4>Das Abenteuer beginnt jetzt!</h4></p>
+                <p><br></p>
+              <div class="d-flex align-items-start">
+            </div>
+                  </tbody>
+</table>
+                <p><br></p>
+              <div class="d-flex align-items-start">
+            </div>
+              <p class="card-text"><small class="text-muted">Letztes Update: <span style="color:black"><b>19.10.2025</b></span> </small></p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <br>
+        <!-- SEITENENDE -->
+        </div>
+            <!-- Vorbereitung für Aussonderung der Navigation-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+            <script>
+              $(".nav-item").click(function(){$("#menue").collapse('hide');
+              $("#menue .bg-primary").removeClass(".bg-primary");
+              $(this).addClass("bg-primary");
+            })
+              $(".dropdown").click(function(){
+              if(!$(this).hasClass("show")) return;
+                $("#menue li>bg-primary").removeClass("bg-primary");
+                $(this).addClass("bg-primary");
+              })
+            </script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+          </body>
+          </html>
